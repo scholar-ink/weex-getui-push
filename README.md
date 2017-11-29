@@ -22,8 +22,54 @@ getui-push是一个weex插件，可以通过weexpack快速集成，可以丰富w
   ```
   weex plugin add getui-push
   ```
+  
+## API
+### `initPush(options)`
+
+初始化个推SDK
+
+#### 参数
+
+- `options {Object}`：初始化个推时设置的参数
+    - `appId {string}`：appId
+    - `appKey {string}`：appKey
+    - `appSecret {string}`：appSecret
+    
+### `onRegisterClient(options)`
+
+获取clientId
+
+#### 参数
+
+- `callback {function (clientId)}`：获取到clientId的回调函数。
+  - `clientId {string}`：sdk登入成功后返回clientId
+
+### `onReceivePayloadData(payloadData)`
+SDK接收个推推送的透传消息
+
+#### 参数
+
+- `callback {function (payloadData)}`：获取到clientId的回调函数。
+  - `payloadData {json Object}`：接收到的透传数据。
+
+### android需要在打包配置个推应用参数
+	
+	在app/build.gradle文件中的android.defaultConfig下添加manifestPlaceholders，配置个推相关的应用参数
+	
+		android {
+		  ...
+		  defaultConfig {
+		    ...
+		    manifestPlaceholders = [
+			    GETUI_APP_ID : "APP_ID",
+			    GETUI_APP_KEY : "APP_KEY",
+			    GETUI_APP_SECRET : "APP_SECRET"
+			]
+		  }
+		}
+
 # 项目地址
-[github](please add you source code address)
+[github](https://github.com/scholar-ink/weex-plugin-getui-push)
 
 # 已有工程集成
 ## iOS集成插件GetuiPush
