@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.weex.plugin.getuipush">
+
+    <application>
+        <service
+            android:name=".DemoPushService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".PushIntentService"
+            android:exported="false" />
+    </application>
+
+</manifest>

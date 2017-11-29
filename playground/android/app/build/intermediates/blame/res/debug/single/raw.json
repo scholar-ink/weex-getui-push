@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zhouchao/vagrant/web/weex-plugin/getui-push/playground/android/app/build/intermediates/res/merged/debug/raw/keep.xml",
+        "source": "/Users/zhouchao/.gradle/caches/transforms-1/files-1.1/sdk-2.11.1.0.aar/66555b3df551a2f7fea0b41f9caf46b6/res/raw/keep.xml"
+    },
+    {
+        "merged": "/Users/zhouchao/vagrant/web/weex-plugin/getui-push/playground/android/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/zhouchao/vagrant/web/weex-plugin/getui-push/playground/android/app/src/main/res/raw/beep.ogg"
+    }
+]

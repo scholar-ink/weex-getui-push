@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:4:5-40
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:1-16:12
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:1-16:12
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:6:5-14:19
+service#org.weex.plugin.getuipush.DemoPushService
+ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:7:9-10:39
+	android:enabled
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:9:13-35
+	android:exported
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:10:13-36
+	android:name
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:8:13-44
+service#org.weex.plugin.getuipush.PushIntentService
+ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:11:9-13:40
+	android:exported
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml:12:13-46
+uses-sdk
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+		ADDED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhouchao/vagrant/web/weex-plugin/getui-push/android/library/src/main/AndroidManifest.xml

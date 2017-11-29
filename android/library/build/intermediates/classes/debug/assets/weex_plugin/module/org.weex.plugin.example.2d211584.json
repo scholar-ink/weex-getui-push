@@ -1,0 +1,1 @@
+[{"canOverrideExisting":true,"globalRegistration":false,"functions":[],"name":"testPlugin","class":"org.weex.plugin.example.TestPluginModule","lazyLoad":false},{"canOverrideExisting":true,"globalRegistration":false,"functions":[],"name":"getuiPush","class":"org.weex.plugin.getuipush.GetuiPushModule","lazyLoad":false}]

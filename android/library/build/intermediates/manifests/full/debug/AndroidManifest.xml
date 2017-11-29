@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.weex.plugin.getuipush"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="25" />
+
+    <application>
+        <service
+            android:name="org.weex.plugin.getuipush.DemoPushService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="org.weex.plugin.getuipush.PushIntentService"
+            android:exported="false" />
+    </application>
+
+</manifest>
