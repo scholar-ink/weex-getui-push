@@ -51,7 +51,25 @@ SDK接收个推推送的透传消息
 
 - `callback {function (payloadData)}`：获取到clientId的回调函数。
     - `payloadData {json Object}`：接收到的透传数据。
+    
+### 示例代码
 
+        const plugin = weex.requireModule('@weex-module/getuiPush');
+        
+        plugin.initPush({
+            appId:'appId',
+            appKey:'appKey',
+            appSecret:'appSecret',
+        });
+        //获取clientId
+        plugin.onRegisterClient(function (clientId) {
+            console.log('js 收到' + clientId);
+        });
+        //SDK接收个推推送的透传消息
+        plugin.onReceivePayloadData(function (payloadData) {
+            console.log('js 收到' + JSON.stringify(payloadData));
+        });
+        
 ### android需要在打包配置个推应用参数
 	
 	在app/build.gradle文件中的android.defaultConfig下添加manifestPlaceholders，配置个推相关的应用参数
