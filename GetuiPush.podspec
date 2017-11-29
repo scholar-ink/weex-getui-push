@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    Weexplugin Source Description
                    DESC
 
-  s.homepage     = "https://github.com"
+  s.homepage     = "https://github.com/scholar-ink/weex-plugin-getui-push"
   s.license = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -17,12 +17,12 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors      = {
-                     "yourname" =>"youreamail"
+                     "scholar_ink" =>"scholar_ink@163.com"
                    }
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => 'please input the url of your code in github', :tag => 'please input you github tag' }
+  s.source       = { :git => 'https://github.com/scholar-ink/weex-plugin-getui-push.git', :tag => s.version }
   s.source_files  = "ios/Sources/*.{h,m,mm}"
   
   s.requires_arc = true
