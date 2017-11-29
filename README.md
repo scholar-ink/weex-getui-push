@@ -35,22 +35,22 @@ getui-push是一个weex插件，可以通过weexpack快速集成，可以丰富w
     - `appKey {string}`：appKey
     - `appSecret {string}`：appSecret
     
-### `onRegisterClient(options)`
+### `onRegisterClient(callback[clientId])`
 
 获取clientId
 
 #### 参数
 
 - `callback {function (clientId)}`：获取到clientId的回调函数。
-  - `clientId {string}`：sdk登入成功后返回clientId
+    - `clientId {string}`：sdk登入成功后返回clientId
 
-### `onReceivePayloadData(payloadData)`
+### `onReceivePayloadData(callback[payloadData])`
 SDK接收个推推送的透传消息
 
 #### 参数
 
 - `callback {function (payloadData)}`：获取到clientId的回调函数。
-  - `payloadData {json Object}`：接收到的透传数据。
+    - `payloadData {json Object}`：接收到的透传数据。
 
 ### android需要在打包配置个推应用参数
 	
