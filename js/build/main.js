@@ -51,9 +51,15 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	var GetuiPush = {
-	  show: function show() {
-	    alert("module GetuiPush is created sucessfully ");
+	var getuiPush = {
+	  initPush: function initPush(options) {
+	    console.log('web initPush');
+	  },
+	  onRegisterClient: function onRegisterClient(callback) {
+	    console.log('web onRegisterClient');
+	  },
+	  onReceivePayloadData: function onReceivePayloadData(callback) {
+	    console.log('web onReceivePayloadData');
 	  }
 	};
 
@@ -61,11 +67,17 @@
 	  GetuiPush: [{
 	    name: 'show',
 	    args: []
+	  }, {
+	    name: 'onRegisterClient',
+	    args: []
+	  }, {
+	    name: 'onReceivePayloadData',
+	    args: []
 	  }]
 	};
 
 	function init(weex) {
-	  weex.registerModule('GetuiPush', getuiPush, meta);
+	  weex.registerModule('getuiPush', getuiPush, meta);
 	}
 
 	exports.default = {

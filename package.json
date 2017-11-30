@@ -1,6 +1,6 @@
 {
     "name": "getui-push",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "./js/build/main.js",
     "description": "getui-push extend for weex",
     "license": "Apache-2.0",

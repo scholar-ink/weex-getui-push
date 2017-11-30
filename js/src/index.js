@@ -1,6 +1,12 @@
-const GetuiPush = {
-  show() {
-      alert("module GetuiPush is created sucessfully ")
+const getuiPush = {
+  initPush(options) {
+    console.log('web initPush')
+  },
+  onRegisterClient(callback) {
+    console.log('web onRegisterClient')
+  },
+  onReceivePayloadData(callback) {
+    console.log('web onReceivePayloadData')
   }
 };
 
@@ -9,11 +15,17 @@ const meta = {
    GetuiPush: [{
     name: 'show',
     args: []
+  },{
+    name: 'onRegisterClient',
+     args:[]
+  },{
+     name: 'onReceivePayloadData',
+     args:[]
   }]
 };
 
 function init(weex) {
-  weex.registerModule('GetuiPush', getuiPush, meta);
+  weex.registerModule('getuiPush', getuiPush, meta);
 }
 
 export default {
